@@ -48,17 +48,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\IRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
-    <Compile Include="Services\AchievementUnlocker.cs" />
-    <Compile Include="Services\AllAchievementsChecker.cs" />
-    <Compile Include="Services\IAchievementChecker.cs" />
-    <Compile Include="Services\IAchievementUnlocker.cs" />
-    <Compile Include="Services\IAllAchievementsChecker.cs" />
+    <Compile Include="Services\Achievements\AchievementUnlocker.cs" />
+    <Compile Include="Services\Achievements\AllAchievementsChecker.cs" />
+    <Compile Include="Services\Achievements\IAchievementChecker.cs" />
+    <Compile Include="Services\Achievements\IAchievementUnlocker.cs" />
+    <Compile Include="Services\Achievements\IAllAchievementsChecker.cs" />
     <Compile Include="Services\ISomeOtherService.cs" />
-    <Compile Include="Services\ITwoInADayChecker.cs" />
+    <Compile Include="Services\Achievements\ITwoInADayChecker.cs" />
     <Compile Include="Services\MockExampleService.cs" />
     <Compile Include="Services\SystemClock.cs" />
     <Compile Include="Services\TestService.cs" />
-    <Compile Include="Services\TwoInADayChecker.cs" />
+    <Compile Include="Services\Achievements\TwoInADayChecker.cs" />
     <Compile Include="Services\UserContext.cs" />
     <Compile Include="Services\UserContextFactory.cs" />
   </ItemGroup>
