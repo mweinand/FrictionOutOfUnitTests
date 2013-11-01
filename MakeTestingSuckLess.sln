@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMe.Web", "TestMe.Web\TestMe.Web.csproj", "{17165DF3-F115-48E7-964B-D5338AFA46E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMe.Web.Tests", "TestMe.Web.Tests\TestMe.Web.Tests.csproj", "{64D06D0A-FE69-48A1-96BA-FCE0E8AC2C71}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMe.Core", "TestMe.Core\TestMe.Core.csproj", "{94C045A3-5C63-40C5-B9D2-45087E403A6B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17165DF3-F115-48E7-964B-D5338AFA46E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17165DF3-F115-48E7-964B-D5338AFA46E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17165DF3-F115-48E7-964B-D5338AFA46E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17165DF3-F115-48E7-964B-D5338AFA46E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64D06D0A-FE69-48A1-96BA-FCE0E8AC2C71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64D06D0A-FE69-48A1-96BA-FCE0E8AC2C71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64D06D0A-FE69-48A1-96BA-FCE0E8AC2C71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64D06D0A-FE69-48A1-96BA-FCE0E8AC2C71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94C045A3-5C63-40C5-B9D2-45087E403A6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94C045A3-5C63-40C5-B9D2-45087E403A6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94C045A3-5C63-40C5-B9D2-45087E403A6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94C045A3-5C63-40C5-B9D2-45087E403A6B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
