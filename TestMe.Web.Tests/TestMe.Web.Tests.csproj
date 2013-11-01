@@ -104,10 +104,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AutoMockContext.cs" />
-    <Compile Include="Controllers\CheckIn1ControllerTests.cs" />
-    <Compile Include="Controllers\CheckIn1ControllerTests2.cs" />
-    <Compile Include="Controllers\CheckIn2ControllerTests1.cs" />
-    <Compile Include="Controllers\CheckIn2ControllerTests2.cs" />
+    <Compile Include="Controllers\CheckInControllerTests.cs" />
+    <Compile Include="Controllers\CheckIn1ControllerTestsScratch.cs" />
+    <Compile Include="Controllers\CheckIn2ontrollerFinishedTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\AchievementUnlockerTests.cs" />
   </ItemGroup>

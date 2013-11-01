@@ -55,6 +55,7 @@
     <Compile Include="Services\IAllAchievementsChecker.cs" />
     <Compile Include="Services\ISomeOtherService.cs" />
     <Compile Include="Services\ITwoInADayChecker.cs" />
+    <Compile Include="Services\MockExampleService.cs" />
     <Compile Include="Services\SystemClock.cs" />
     <Compile Include="Services\TestService.cs" />
     <Compile Include="Services\TwoInADayChecker.cs" />

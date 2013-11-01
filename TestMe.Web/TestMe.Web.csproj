@@ -144,9 +144,9 @@
     <Compile Include="App_Start\UnityMvcActivator.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Bootstrapper.cs" />
-    <Compile Include="Controllers\CheckIn1Controller.cs" />
-    <Compile Include="Controllers\CheckIn1ControllerScratch.cs" />
-    <Compile Include="Controllers\CheckIn2Controller.cs" />
+    <Compile Include="Controllers\CheckInController.cs" />
+    <Compile Include="Controllers\CheckInControllerScratch.cs" />
+    <Compile Include="Controllers\CheckInControllerFinished.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
