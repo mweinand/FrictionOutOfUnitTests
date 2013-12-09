@@ -48,6 +48,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\IRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
+    <Compile Include="Scratch\Animal1.cs" />
+    <Compile Include="Scratch\Animal2.cs" />
     <Compile Include="Services\Achievements\AchievementUnlocker.cs" />
     <Compile Include="Services\Achievements\AllAchievementsChecker.cs" />
     <Compile Include="Services\Achievements\IAchievementChecker.cs" />
@@ -61,6 +63,11 @@
     <Compile Include="Services\Achievements\TwoInADayChecker.cs" />
     <Compile Include="Services\UserContext.cs" />
     <Compile Include="Services\UserContextFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Resharper.DotSettings" />
+    <None Include="Settings.StyleCop" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
